@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+  name="description"
+  content="Discover artisan coffee, fresh pastries and cozy moments at The Whispering Cup."
+>
+
+  <title>The Whispering Cup | Your Cozy Coffee Spot</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    #Header
+  <header class="navbar">
+    <a href="#home" class="logo">the whispering cup<span>.</span></a>
+
+    <button
+      class="menu-toggle"
+      aria-label="Open navigation"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#about">Our Story</a>
+      <a href="#contact">Visit Us</a>
+    </nav>
+
+    <a href="#menu" class="nav-cta">Explore Menu</a>
+  </header>
+
+  <main>
+
+    #Hero Section
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">GOOD COFFEE, GOOD COMPANY</p>
+
+        <h1>Your daily dose of <em>cozy.</em></h1>
+
+        <p class="hero-description">
+          Slow mornings, freshly brewed coffee, and little
+          moments that make your day better.
+        </p>
+
+        <a href="#menu" class="btn">Explore our menu →</a>
+
+        <p class="hero-note">Made with love. Served with warmth.</p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1000&auto=format&fit=crop&q=80"
+          alt="Warm and inviting coffee shop interior"
+        >
+      </div>
+    </section>
+
+    #Menu Section
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">SOMETHING FOR EVERY MOOD</p>
+        <h2>A little cup of happiness.</h2>
+        <p>Freshly made favourites, just for you.</p>
+      </div>
+
+      <div class="menu-filters" aria-label="Filter menu items">
+        <button class="filter-btn active" data-category="all"
+          aria-pressed="true">All</button>
+        <button class="filter-btn" data-category="coffee"
+          aria-pressed="false">Coffee</button>
+        <button class="filter-btn" data-category="tea"
+          aria-pressed="false">Tea</button>
+        <button class="filter-btn" data-category="pastries"
+          aria-pressed="false">Pastries</button>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card" data-category="coffee">
+          <img
+            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&auto=format&fit=crop&q=80"
+            alt="Freshly brewed latte"
+            loading="lazy"
+          >
+          <div class="menu-card-content">
+            <h3>Velvet Latte</h3>
+            <p>Smooth espresso with silky steamed milk.</p>
+            <span class="price">£3.50</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="coffee">
+          <img
+            src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=600&auto=format&fit=crop&q=80"
+            alt="Cup of freshly brewed coffee"
+            loading="lazy"
+          >
+          <div class="menu-card-content">
+            <h3>Classic Americano</h3>
+            <p>Rich espresso topped with hot water.</p>
+            <span class="price">£2.80</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="tea">
+          <img
+            src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&auto=format&fit=crop&q=80"
+            alt="Tea served in a cup"
+            loading="lazy"
+          >
+          <div class="menu-card-content">
+            <h3>Calm Chamomile</h3>
+            <p>A gentle, fragrant herbal tea.</p>
+            <span class="price">£2.50</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="tea">
+          <img
+            src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop&q=80"
+            alt="A freshly prepared cup of tea"
+            loading="lazy"
+          >
+          <div class="menu-card-content">
+            <h3>Chai Latte</h3>
+            <p>Warming spices blended with creamy milk.</p>
+            <span class="price">£3.20</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="pastries">
+          <img
+            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80"
+            alt="Fresh golden croissants"
+            loading="lazy"
+          >
+          <div class="menu-card-content">
+            <h3>Butter Croissant</h3>
+            <p>Flaky, golden and baked to perfection.</p>
+            <span class="price">£2.40</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="pastries">
+          <img
+            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"
+            alt="Freshly baked artisan bread"
+            loading="lazy"
+          >
+          <div class="menu-card-content">
+            <h3>Morning Bake</h3>
+            <p>A delicious fresh-baked treat with your coffee.</p>
+            <span class="price">£2.90</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    #About Section
+    <section class="about-section" id="about">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900&auto=format&fit=crop&q=80"
+          alt="Coffee being carefully prepared by a barista"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h2>More than coffee. A feeling.</h2>
+
+        <p>
+          We believe the best moments don't need to be grand.
+          Sometimes, all you need is a warm cup, a familiar
+          corner, and a little time for yourself.
+        </p>
+
+        <p>
+          At The Daily Pour, every cup is prepared with care
+          and every guest is welcomed like a friend.
+        </p>
+
+        <a href="#contact" class="text-link">Come say hello →</a>
+      </div>
+    </section>
+
+    #Contact Section
+    <section class="contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">WE'RE SAVING YOU A SEAT</p>
+        <h2>Come on over.</h2>
+        <p>Good coffee and good company are waiting.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="visit-info">
+          <h3>Visit our little corner</h3>
+          <p>12 Willow Lane, London (fictional address)</p>
+          <p>hello@thewhisperingcup.example</p>
+
+          <h3>Opening hours</h3>
+          <p>Monday – Friday: 8 am – 6 pm</p>
+          <p>Saturday – Sunday: 9 am – 5 pm</p>
+        </div>
+
+        <form id="contact-form">
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+          >
+
+          <label for="email">Your email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          >
+
+          <label for="message">Your message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn">Send us a note →</button>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  #Footer
+  <footer class="footer">
+    <a href="#home" class="logo">the whispering cup<span>.</span></a>
+    <p>Good coffee. Slow moments. Always welcome.</p>
+    <p>© 2026 The Whispering Cup · Fictional portfolio project</p>
+  </footer>
+
+</body>
+</html>
